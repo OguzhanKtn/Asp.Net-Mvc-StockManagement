@@ -1,6 +1,6 @@
 ﻿@model MvcTraining.Models.Tblurunler
 
-@using (Html.BeginForm("Guncelle", "Musteri", FormMethod.Post))
+@using (Html.BeginForm("Guncelle", "Urun", FormMethod.Post))
 {
     <div class="form-group">
         @Html.LabelFor(m => m.Urunid)
@@ -11,10 +11,19 @@
         <br />
         @Html.LabelFor(m => m.Marka)
         @Html.TextBoxFor(m => m.Marka, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(m => m.Urunkategori)
+        @Html.DropDownListFor(m => m.UrunkategoriNavigation.Kategoriid, (List<SelectListItem>)ViewBag.dgr, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(m => m.Fiyat)
+        @Html.TextBoxFor(m => m.Fiyat, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(m => m.Stok)
+        @Html.TextBoxFor(m => m.Stok, new { @class = "form-control" })
     </div>
     <div style="margin-top:15px">
         <button class="btn btn-warning">
-            Müşteri Güncelle
+            Ürünü Güncelle
         </button>
     </div>
 }

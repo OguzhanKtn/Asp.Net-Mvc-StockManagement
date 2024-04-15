@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oğuzhan\\source\\repos\\MvcTraining\\MvcTraining\\MvcTraining.csproj": {}
+    "C:\\GitHub\\Asp.Net-Mvc-StokManagement\\MvcTraining\\MvcTraining.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oğuzhan\\source\\repos\\MvcTraining\\MvcTraining\\MvcTraining.csproj": {
+    "C:\\GitHub\\Asp.Net-Mvc-StokManagement\\MvcTraining\\MvcTraining.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oğuzhan\\source\\repos\\MvcTraining\\MvcTraining\\MvcTraining.csproj",
+        "projectUniqueName": "C:\\GitHub\\Asp.Net-Mvc-StokManagement\\MvcTraining\\MvcTraining.csproj",
         "projectName": "MvcTraining",
-        "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\MvcTraining\\MvcTraining\\MvcTraining.csproj",
-        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oğuzhan\\source\\repos\\MvcTraining\\MvcTraining\\obj\\",
+        "projectPath": "C:\\GitHub\\Asp.Net-Mvc-StokManagement\\MvcTraining\\MvcTraining.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Asp.Net-Mvc-StokManagement\\MvcTraining\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
