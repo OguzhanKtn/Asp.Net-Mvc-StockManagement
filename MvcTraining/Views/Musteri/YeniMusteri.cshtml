@@ -1,0 +1,17 @@
+﻿@model MvcTraining.Models.Tblmusteriler
+
+<form class="form-group" method="post">
+    <div>
+        <label>Müşteri Adı</label>
+        @Html.TextBoxFor(m => m.Musteriad, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Musteriad, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Müşteri Soyadı</label>
+        @Html.TextBoxFor(m => m.Musterisoyad, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Musterisoyad, "", new { @style = "color:red" })
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info">Kaydet</button>
+    </div>
+</form>

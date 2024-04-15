@@ -1,0 +1,27 @@
+﻿@using MvcTraining.Models
+@model List<Tblkategoriler>
+
+<table class="table table-bordered">
+    <tr>
+        <th>KATEGORİ ID</th>
+        <th>KATEGORİ ADI</th>
+        <th>SİL</th>
+        <th>GÜNCELLE</th>
+    </tr>
+    <tbody>
+        @foreach(var ktgr in Model)
+        {
+            <tr>
+                <th>@ktgr.Kategoriid</th>
+                <td>@ktgr.Kategoriad</td>
+                <td>
+                    <a href="/KATEGORI/Sil/@ktgr.Kategoriid" class="btn btn-danger btn-sm">SİL</a>
+                </td>
+                <td>
+                    <a href="/KATEGORI/KategoriGetir/@ktgr.Kategoriid" class="btn btn-success btn-sm">GÜNCELLE</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/KATEGORI/YeniKategori/" class="btn btn-primary">YENİ KATEGORİ EKLE</a>

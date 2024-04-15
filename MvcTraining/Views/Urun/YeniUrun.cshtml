@@ -1,0 +1,27 @@
+﻿@model MvcTraining.Models.Tblurunler
+
+<form class="form-group" method="post">
+    <div>
+        <label>Ürün Adı</label>
+        <input type="text" class="form-control" name="URUNAD" />
+    </div>
+    <div style="margin-top:15px">
+        <label>Marka</label>
+        <input type="text" class="form-control" name="MARKA" />
+    </div>
+    <div style="margin-top:15px">
+        <label>Kategori Seçiniz</label>
+       @Html.DropDownListFor(m=>m.UrunkategoriNavigation.Kategoriid,(List<SelectListItem>)ViewBag.dgr,new{@class = "form-control"})
+    </div>
+    <div style="margin-top:15px">
+        <label>Fiyat</label>
+        <input type="text" class="form-control" name="FIYAT" />
+    </div>
+    <div style="margin-top:15px">
+        <label>Stok</label>
+        <input type="text" class="form-control" name="STOK" />
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info">Kaydet</button>
+    </div>
+</form>

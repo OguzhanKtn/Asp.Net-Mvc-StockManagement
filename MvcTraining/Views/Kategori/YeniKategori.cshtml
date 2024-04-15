@@ -1,0 +1,18 @@
+﻿@model MvcTraining.Models.Tblkategoriler
+
+<form class="form-group" method="post">
+    @*
+    <div>
+        <label>Kategori Adı</label>
+        <input type="text" class="form-control" name="KATEGORIAD"/>
+    </div>
+    *@
+    <div>
+        <label>Kategori Adı</label>
+        @Html.TextBoxFor(m  => m.Kategoriad, new{@class = "form-control"})
+        @Html.ValidationMessageFor(m => m.Kategoriad,"",new {@style = "color:red"})
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info">Kaydet</button>
+    </div>
+</form>

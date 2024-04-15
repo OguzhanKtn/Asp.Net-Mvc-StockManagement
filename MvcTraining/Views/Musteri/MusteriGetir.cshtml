@@ -1,0 +1,20 @@
+﻿@model MvcTraining.Models.Tblmusteriler
+
+@using (Html.BeginForm("Guncelle", "Musteri", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Musteriid)
+        @Html.TextBoxFor(m => m.Musteriid, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(m => m.Musteriad)
+        @Html.TextBoxFor(m => m.Musteriad, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(m => m.Musterisoyad)
+        @Html.TextBoxFor(m => m.Musterisoyad, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-warning">
+            Müşteri Güncelle
+        </button>
+    </div>
+}
