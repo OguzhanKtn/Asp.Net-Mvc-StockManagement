@@ -275,3 +275,6 @@ C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\obj\Debug\net8.0\refint\MvcTrai
 C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\obj\Debug\net8.0\MvcTraining.pdb
 C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\obj\Debug\net8.0\MvcTraining.genruntimeconfig.cache
 C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\obj\Debug\net8.0\ref\MvcTraining.dll
+C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\obj\Debug\net8.0\MvcTraining.MvcApplicationPartsAssemblyInfo.cs
+C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\bin\Debug\net8.0\X.PagedList.dll
+C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll

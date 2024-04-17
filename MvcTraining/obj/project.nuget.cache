@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gqzG5ll34efTgQtCRuvVDs7Z4p/VDr8ubT60fNnsWwqhRQ6ruDbBe2pQnxXlgjhtB/SWCSPbjoF1QSi9FPEQJQ==",
+  "dgSpecHash": "8Z89KaSmMd85urTxoNu0Mmifx2dPyDkWktBPfR11gRYOoxTqCMFoE3ygzCfl2l6VVI+7tLI1jN7s3KCoXNoQ0w==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Asp.Net-Mvc-StokManagement\\MvcTraining\\MvcTraining.csproj",
   "expectedPackageFiles": [
@@ -147,7 +147,9 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\x.pagedlist\\9.1.2\\x.pagedlist.9.1.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\x.pagedlist.mvc.core\\9.1.2\\x.pagedlist.mvc.core.9.1.2.nupkg.sha512"
   ],
   "logs": []
 }

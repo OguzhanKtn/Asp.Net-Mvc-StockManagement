@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MvcTraining.Models;
+using X.PagedList;
 
 namespace MvcTraining.Controllers
 {
@@ -11,13 +12,14 @@ namespace MvcTraining.Controllers
         { 
             db = new MvcDbStokContext();
         }
-        public IActionResult Index()
-        {
-            var degerler = db.Tblurunlers.ToList();
+        public IActionResult Index(int sayfa=1)
+        {       
+            var degerler = db.Tblurunlers.ToPagedList(sayfa,2);
             foreach (var urun in degerler)
             {
                 db.Entry(urun).Reference(u => u.UrunkategoriNavigation).Load();
             }
+
             return View(degerler);
         }
 

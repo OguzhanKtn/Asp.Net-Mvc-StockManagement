@@ -1,5 +1,7 @@
 ﻿@using MvcTraining.Models
-@model List<Tblurunler>
+@using X.PagedList.Mvc.Core
+@using X.PagedList
+@model X.PagedList.IPagedList<Tblurunler>
 
 <table class="table table-bordered">
     <tr>
@@ -32,4 +34,6 @@
         }
     </tbody>
 </table>
+@Html.PagedListPager((IPagedList)Model, sayfa => Url.Action("Index", new { sayfa }))
+
 <a href="/URUN/YeniUrun/" class="btn btn-primary">YENİ ÜRÜN EKLE</a>
