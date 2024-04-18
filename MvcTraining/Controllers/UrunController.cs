@@ -14,13 +14,25 @@ namespace MvcTraining.Controllers
         }
         public IActionResult Index(int sayfa=1)
         {       
-            var degerler = db.Tblurunlers.ToPagedList(sayfa,2);
+            var degerler = db.Tblurunlers.ToPagedList(sayfa,10);
+        
             foreach (var urun in degerler)
             {
                 db.Entry(urun).Reference(u => u.UrunkategoriNavigation).Load();
             }
 
             return View(degerler);
+        }
+
+        public IActionResult Search(string p)
+        {
+            var degerler = from d in db.Tblurunlers select d;
+            if (!string.IsNullOrEmpty(p))
+            {
+                degerler = degerler.Where(m => m.Urunad.Contains(p));
+            }
+            var resultList = degerler.ToList();
+            return View(resultList);
         }
 
         [HttpGet]

@@ -1,0 +1,41 @@
+﻿@model MvcTraining.Models.Tblsatislar
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">
+    Satış Yap
+</button>
+
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Satış Ekranı</h2>
+            </div>
+            <form method="post" action="/Satis/YeniSatis">
+                <div class="modal-body">
+                    <label>
+                        Ürün Adı
+                    </label>
+                    @Html.TextBoxFor(m=>m.Urun,new {@class = "form-control"})
+                    <br />
+                    <label>
+                        Müşteri Adı Soyadı
+                    </label>
+                    @Html.TextBoxFor(m=>m.Musteri, new{@class = "form-control"})
+                    <br />
+                    <label>
+                        Fiyat
+                    </label>
+                    @Html.TextBoxFor(m => m.Fiyat, new { @class = "form-control" })
+                    <br />
+                    <label>
+                        Stok
+                    </label>
+                    @Html.TextBoxFor(m => m.Adet, new { @class = "form-control" })
+                    <br/>
+                    <button class="btn btn-info">Kaydet</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss = "modal">Vazgeç</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
