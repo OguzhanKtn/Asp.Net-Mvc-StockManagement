@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MvcTraining.Models;
-using X.PagedList;
 
 namespace MvcTraining.Controllers
 {
@@ -12,9 +11,9 @@ namespace MvcTraining.Controllers
         { 
             db = new MvcDbStokContext();
         }
-        public IActionResult Index(int sayfa=1)
-        {       
-            var degerler = db.Tblurunlers.ToPagedList(sayfa,10);
+        public IActionResult Index()
+        {
+            var degerler = db.Tblurunlers.ToList();
         
             foreach (var urun in degerler)
             {
@@ -22,17 +21,6 @@ namespace MvcTraining.Controllers
             }
 
             return View(degerler);
-        }
-
-        public IActionResult Search(string p)
-        {
-            var degerler = from d in db.Tblurunlers select d;
-            if (!string.IsNullOrEmpty(p))
-            {
-                degerler = degerler.Where(m => m.Urunad.Contains(p));
-            }
-            var resultList = degerler.ToList();
-            return View(resultList);
         }
 
         [HttpGet]

@@ -9,83 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcTraining
 build_property.RootNamespace = MvcTraining
-build_property.ProjectDir = C:\Users\Oğuzhan\Documents\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\
+build_property.ProjectDir = C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Oğuzhan\Documents\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining
+build_property.MSBuildProjectDirectory = C:\GitHub\Asp.Net-Mvc-StokManagement\MvcTraining
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Home/Index.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Home/Information.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Home/Information.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Home/Privacy.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Kategori/Index.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Kategori/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Kategori/KategoriGetir.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Kategori/KategoriGetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcS2F0ZWdvcmlHZXRpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Kategori/YeniKategori.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Kategori/YeniKategori.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcWWVuaUthdGVnb3JpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Musteri/Index.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Musteri/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Musteri/MusteriGetir.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Musteri/MusteriGetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxNdXN0ZXJpR2V0aXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Musteri/YeniMusteri.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Musteri/YeniMusteri.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxZZW5pTXVzdGVyaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Satis/Index.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Satis/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F0aXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Urun/Index.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Urun/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Urun/Search.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxTZWFyY2guY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Urun/UrunGetir.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Urun/UrunGetir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxVcnVuR2V0aXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Urun/YeniUrun.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Urun/YeniUrun.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxZZW5pVXJ1bi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/_ViewImports.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/_ViewStart.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/Documents/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Shared/_Layout.cshtml]
+[C:/GitHub/Asp.Net-Mvc-StokManagement/MvcTraining/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-f1tnoapj0b

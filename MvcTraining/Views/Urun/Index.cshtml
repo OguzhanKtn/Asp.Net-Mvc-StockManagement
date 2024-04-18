@@ -1,16 +1,7 @@
 ﻿@using MvcTraining.Models
-@using X.PagedList.Mvc.Core
-@using X.PagedList
-@model X.PagedList.IPagedList<Tblurunler>
+@model List<Tblurunler>
 
-@using (Html.BeginForm("Search", "Urun", FormMethod.Get))
-{
-    <p>
-        <b>Aranacak Ürün Adı :</b> @Html.TextBox("p")
-        <input type="submit" value="Ara" />
-    </p>
-}
-<table class="table table-bordered">
+<table class="table table-bordered" id="tbl1">
     <thead>
         <tr>
             <th>URUN ID</th>
@@ -43,12 +34,20 @@
         }
     </tbody>
 </table>
-    @Html.PagedListPager((IPagedList)Model, sayfa => Url.Action("Index", new { sayfa }),
-    new PagedListRenderOptions
-    {
-        UlElementClasses = new[] { "pagination", "justify-content-center" },
-        LiElementClasses = new[] { "page-item" },
-        PageClasses = new[] { "page-link" }
-    }
-    )
+
 <a href="/URUN/YeniUrun/" class="btn btn-primary">YENİ ÜRÜN EKLE</a>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.5/css/dataTables.dataTables.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/2.0.5/js/dataTables.min.js"></script>
+
+
+<script>
+    $.noConflict();
+    jQuery(document).ready(function ($) {
+        $('#tbl1').DataTable()
+    });
+
+</script>
